@@ -1,0 +1,8 @@
+- Realizzare un piccola calcolatrice che esegua le quattro operazioni su due operandi, rappresentati con due <input>
+- Le 4 operazioni saranno rappresentate da 4 bottoni btnPiu, btnMeno, ...., che esegiranno funzioni diverse sui due numeri
+
+- I riusltati devono essere riportati in una lista delle ultime operazioni svolte: 
+    una <ul> inizialmente vuota in cui riportare l'operazione nella forma : op1 + op2 = risultato
+- Ad ogni operazione si aggiunge un <li> all'<ul>
+- Se il risultato è negativo va colorato di rosso
+- Se il risultato non è intero va colorato di blu
