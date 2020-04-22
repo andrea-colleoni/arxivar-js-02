@@ -1,0 +1,32 @@
+
+C#
+
+int a = 10;
+
+a = 20;
+a = "ciao"; // Errore !!!
+
+float b;
+b = 10.5;
+
+Tipi JS:
+========
+number
+string
+boolean
+Object
+Array
+
+Operatori:
+==========
+Matematici
++ - * / %
+++ -- (incremento e decremento)
+
+Di confronto
+< > <= >=
+= assegnazione
+== confronto uguaglianza
+=== confronto identità
+!= disuguaglianza
+!== non identità
