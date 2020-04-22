@@ -1,0 +1,14 @@
+/* selettore di tipo tag: cita il tag a cui applcare la regola di stile */
+p {
+    background-color: bisque;
+    border: 1px dotted red;
+}
+
+.importante {
+    color: green;
+}
+
+#btnCalcola {
+    font-size: 20px;
+    padding: 20px;
+}

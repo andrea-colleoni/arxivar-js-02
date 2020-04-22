@@ -18,6 +18,27 @@ console.log(v2, arr1);
 var arr2 = arr1.filter((el) => el % 2 === 0);
 console.log(arr2);
 
+var num = arr1.find((num) => num === 33);
+
+var oggetti = arr1.map((num) => {
+    return { nome: 'non so', eta: num} 
+});
+console.log(oggetti);
+
+console.log(arr1.sort((n1, n2) => n1 - n2));
+
+console.log(
+    arr1
+        .filter((num) => num % 2 === 0)
+        .sort((n1, n2) => n1 - n2)
+        .map((num) => {
+            return {
+                nome: 'Mario',
+                eta: num,
+            }
+        })
+);
+
 // equivalente non funzionale del filter()
 var arr3 = [];
 for(var i = 0; i < arr1.length; i++) {
