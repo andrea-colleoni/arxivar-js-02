@@ -1,0 +1,28 @@
+{
+  "name": "arxivar-js-02",
+  "version": "1.0.0",
+  "description": "Corso DEV JS Arxivar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea-colleoni/arxivar-js-02.git"
+  },
+  "keywords": [
+    "js",
+    "arxivar"
+  ],
+  "author": "Andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrea-colleoni/arxivar-js-02/issues"
+  },
+  "homepage": "https://github.com/andrea-colleoni/arxivar-js-02#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "datatables.net": "^1.10.20",
+    "jquery": "^3.5.0"
+  }
+}
