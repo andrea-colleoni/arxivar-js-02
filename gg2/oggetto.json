@@ -1,0 +1,12 @@
+{
+    "nome": "Andrea",
+    "cognome": "Colleoni",
+    "indirizzo": {
+        "citta": "Bergamo",
+        "cap": "24100"
+    },
+    "indirizzi": [
+        "andrea@colleoni.info",
+        "andrea@blabla"
+    ]
+}
