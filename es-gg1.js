@@ -1,3 +1,5 @@
+'use strict'
+
 var op1 = document.getElementById('op1');
 var op2 = document.getElementById('op2');
 var risultati = document.getElementById('risultati');
