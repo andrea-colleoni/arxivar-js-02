@@ -1,0 +1,10 @@
+Usando l'API di https://jsonplaceholder.typicode.com/:
+
+Strumenti: jQuery, DataTables (opz) 
+
+
+- creare una tabella degli utenti 
+- per ogni utente visualizzato in tabella o elenco puntato, prevedere un link, che porti ad una pagina con l'elenco dei post 
+  di quell'utente
+- ritornando alla pagina con l'elenco degli uetnti, caricare gli utenti sono se non sono stati già caricati la prima volta
+  per migliorare le performance (usare il localStorage per salvare gli utenti)
