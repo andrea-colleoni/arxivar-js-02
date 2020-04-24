@@ -2,7 +2,10 @@ angular
 .module('phoneList')
 .component('phoneList', {
     templateUrl: 'components/phone-list/phone-list.template.html',
-    controller: function PhoneListController() {
+    controller: ['$http', function PhoneListController($http) {
+        // il servizio $http è disponibile qui, perchè la D.I: di angular provvede
+        // a iniettarlo nel controller
+        // - $https deve essere disponibile nel module che ha caricato QUESTO modulo
         this.orderProps = [
             {
                 chiave: 'name',
@@ -13,25 +16,13 @@ angular
                 valore: 'Età',
             }
         ]
-        this.query = 'tablet';
-        this.phones = [
-            {
-              name: 'Nexus S',
-              snippet: 'Fast just got faster with Nexus S.',
-              age: 1
-            }, {
-              name: 'Motorola XOOM™ with Wi-Fi',
-              snippet: 'The Next, Next Generation tablet.',
-              age: 2
-            }, {
-              name: 'MOTOROLA XOOM™',
-              snippet: 'The Next, Next Generation tablet.',
-              age: 3
-            }
-          ];
+        this.query = '';
+        
+        var self = this;
+        $http.get('phones/phones.json').then((response) => self.phones = response.data);
 
         this.valoreChiave = function(chiave) {
             return this.orderProps.find(p => p.chiave === chiave ).valore;
         }
-    }
+    }],
 });
