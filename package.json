@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/andrea-colleoni/arxivar-js-02#readme",
   "dependencies": {
+    "angular-resource": "^1.7.5",
     "bootstrap": "^4.4.1",
     "datatables.net": "^1.10.20",
     "jquery": "^3.5.0"

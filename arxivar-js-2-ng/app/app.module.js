@@ -3,6 +3,8 @@
 // Declare app level module which depends on views, and core components
 var app = angular.module('corsoJS', [
   'ngRoute',
+  'ngResource',
+  'ngAnimate',
   'phoneList',
   'phoneDetails',
 ]);
